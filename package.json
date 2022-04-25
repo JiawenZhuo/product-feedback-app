@@ -1,0 +1,23 @@
+{
+  "name": "product_feedback_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "index nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-jwt": "^7.4.3",
+    "helmet": "^5.0.2",
+    "jwks-rsa": "^2.0.5",
+    "mongodb": "^4.5.0",
+    "mongodb-memory-server": "^8.5.0",
+    "morgan": "^1.10.0"
+  }
+}
